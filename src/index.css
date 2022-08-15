@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:linear-gradient(to left,rgba(7,37,82,1) 0%,rgba(0,128,128,1) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#banner{
+  padding: 20px;
+}
+
+h1{
+  font-family:'SEGA LOGO FONT';
+  font-weight: 200;
+  color:#0ccac4;
+}
+
+ @font-face{ /*{ font-space allows custom fonts to be loaded on a webpage.Once added to a stylesheet , the rule instructs the browser to download the font from where it is hosted you know */
+
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+  
 }
