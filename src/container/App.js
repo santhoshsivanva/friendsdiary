@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CardList from '../component/CardList';
 import SearchBox from '../component/SearchBox';
 import Scroll from '../component/Scroll';
-
+import '../index.css'
 
 class App extends Component {
   constructor() {
@@ -30,7 +30,7 @@ class App extends Component {
     })
     
     return !robots.length?
-      <h1>Loading</h1> :
+      (<h1 className="spacer">Loading...</h1>) :
       (
         <div className='tc'>
           <h1 className='f1'>RoboFriends</h1>

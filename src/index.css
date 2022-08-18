@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+.spacer{
+  margin:50px;
+}
+
 #banner{
   padding: 20px;
 }
